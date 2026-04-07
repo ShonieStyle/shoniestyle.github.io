@@ -1,8 +1,19 @@
 <header class="site-header">
     <div class="container site-header__inner">
-        <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ include.content.brand.name }}">
-            <span class="brand__mark">{{ include.content.brand.logo_text }}</span>
-            <span class="brand__name">{{ include.content.brand.name }}</span>
+        {% assign brand = include.content.brand %}
+        <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ brand.name }}">
+            {% if brand.logo_image != blank %}
+            <span class="brand__mark brand__mark--image">
+                <img class="brand__image" src="{{ brand.logo_image | relative_url }}"
+                    alt="{{ brand.logo_image_alt | default: brand.name | escape }}">
+            </span>
+            {% else %}
+            <span class="brand__mark">{{ brand.logo_text }}</span>
+            {% endif %}
+
+            {% if brand.show_name != false %}
+            <span class="brand__name">{{ brand.name }}</span>
+            {% endif %}
         </a>
 
         <nav class="site-nav" aria-label="Hauptnavigation">

@@ -3,6 +3,9 @@ meta_description: "ShonieStyle entwirft stilvolle Schnittmuster für Damen, Herr
 brand:
   name: "ShonieStyle"
   logo_text: "SS"
+  logo_image: "/assets/images/logo-shoniestyle.svg"
+  logo_image_alt: "ShonieStyle Logo"
+  show_name: true
 
 announcement:
   text: "15 % Rabatt beim Kauf von 2 oder mehr Schnittmustern. Code: PATTERN15"
