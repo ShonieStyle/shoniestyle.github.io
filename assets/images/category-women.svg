@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#fbf7f0"/>
+  <rect x="70" y="40" width="460" height="370" rx="24" fill="#ffffff" stroke="#e8dfd2"/>
+  <path d="M300 118c40 0 72 32 72 72v90H228v-90c0-40 32-72 72-72z" fill="#ece1d7"/>
+  <path d="M236 290h128l34 80H202l34-80z" fill="#f7dcd8"/>
+  <text x="300" y="398" text-anchor="middle" font-size="26" font-family="Inter, Arial, sans-serif" fill="#7d7268">Damen</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 960" role="img" aria-labelledby="title desc">
+  <title id="title">Hero placeholder</title>
+  <desc id="desc">Abstrakte Illustration als Platzhalter für ein Foto mit Partnerlook.</desc>
+  <rect width="800" height="960" fill="#f9f5ec"/>
+  <rect x="70" y="50" width="660" height="860" rx="28" fill="#ffffff" stroke="#e8dfd2"/>
+  <circle cx="560" cy="210" r="70" fill="#f1d1bf"/>
+  <rect x="490" y="280" width="140" height="340" rx="70" fill="#f7dcd8"/>
+  <rect x="470" y="610" width="70" height="200" rx="30" fill="#d9b3a5"/>
+  <rect x="580" y="610" width="70" height="200" rx="30" fill="#d9b3a5"/>
+  <circle cx="300" cy="360" r="50" fill="#f1d1bf"/>
+  <rect x="240" y="410" width="120" height="230" rx="55" fill="#f7dcd8"/>
+  <rect x="230" y="630" width="55" height="150" rx="24" fill="#d9b3a5"/>
+  <rect x="315" y="630" width="55" height="150" rx="24" fill="#d9b3a5"/>
+  <path d="M160 130C240 90 320 90 390 130" stroke="#f2cf32" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <text x="400" y="875" text-anchor="middle" font-size="30" font-family="Inter, Arial, sans-serif" fill="#8a7b6a">Bild hier einfügen</text>
+</svg>

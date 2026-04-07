@@ -1,0 +1,25 @@
+{% assign lang = page.lang | default: site.lang | default: 'de' %}
+{% assign content_data = site.data[lang].site %}
+<!doctype html>
+<html lang="{{ lang }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{ page.description | default: content_data.meta_description | escape }}">
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+</head>
+
+<body>
+    {% include announcement-bar.html content=content_data %}
+    {% include header.html content=content_data %}
+
+    <main id="content">
+        {{ content }}
+    </main>
+
+    {% include footer.html content=content_data %}
+</body>
+
+</html>

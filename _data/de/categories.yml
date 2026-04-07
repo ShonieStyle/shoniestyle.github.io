@@ -1,0 +1,44 @@
+- key: women
+  eyebrow: "Damen"
+  title: "Schnittmuster für Damen"
+  description: "Kleider, Blusen und moderne Basics für stilvolle Kombinationslooks."
+  url: "https://www.etsy.com/"
+  cta_label: "Kollektion ansehen"
+  image: "/assets/images/category-women.svg"
+  image_alt: "Platzhalter Damenkollektion"
+
+- key: men
+  eyebrow: "Herren"
+  title: "Schnittmuster für Herren"
+  description: "Schlichte und zeitlose Schnitte für abgestimmte Outfits mit Charakter."
+  url: "https://www.etsy.com/"
+  cta_label: "Kollektion ansehen"
+  image: "/assets/images/category-men.svg"
+  image_alt: "Platzhalter Herrenkollektion"
+
+- key: kids
+  eyebrow: "Kinder"
+  title: "Schnittmuster für Kinder"
+  description: "Bequeme und liebevolle Modelle für Alltag, Feier und Partnerlooks."
+  url: "https://www.etsy.com/"
+  cta_label: "Kollektion ansehen"
+  image: "/assets/images/category-kids.svg"
+  image_alt: "Platzhalter Kinderkollektion"
+
+- key: dolls
+  eyebrow: "Puppen"
+  title: "Schnittmuster für Puppen"
+  description: "Mini-Me-Looks und passende Lieblingsoutfits für Puppen und Stofffreunde."
+  url: "https://www.etsy.com/"
+  cta_label: "Kollektion ansehen"
+  image: "/assets/images/category-dolls.svg"
+  image_alt: "Platzhalter Puppenkollektion"
+
+- key: accessories
+  eyebrow: "Accessoires"
+  title: "Accessoires & Dekor"
+  description: "Taschen, kleine Extras und kreative Details für individuelle Projekte."
+  url: "https://www.etsy.com/"
+  cta_label: "Kollektion ansehen"
+  image: "/assets/images/category-accessories.svg"
+  image_alt: "Platzhalter Accessoires"

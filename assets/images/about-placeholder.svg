@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 680" role="img" aria-labelledby="title desc">
+  <title id="title">About placeholder</title>
+  <desc id="desc">Abstraktes Ateliermotiv als Platzhalter.</desc>
+  <rect width="800" height="680" fill="#fffdf8"/>
+  <rect x="46" y="46" width="708" height="588" rx="26" fill="#ffffff" stroke="#e8dfd2"/>
+  <rect x="110" y="140" width="180" height="360" rx="18" fill="#f7dcd8"/>
+  <rect x="150" y="90" width="100" height="60" rx="30" fill="#e9b9aa"/>
+  <rect x="360" y="180" width="290" height="26" rx="13" fill="#f2cf32"/>
+  <rect x="360" y="240" width="250" height="20" rx="10" fill="#d8d1c5"/>
+  <rect x="360" y="282" width="220" height="20" rx="10" fill="#d8d1c5"/>
+  <rect x="360" y="324" width="260" height="20" rx="10" fill="#d8d1c5"/>
+  <rect x="360" y="388" width="170" height="42" rx="21" fill="#ef4dac"/>
+  <text x="400" y="584" text-anchor="middle" font-size="28" font-family="Inter, Arial, sans-serif" fill="#8a7b6a">Marken- oder Atelierfoto</text>
+</svg>

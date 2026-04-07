@@ -1,0 +1,55 @@
+meta_description: "ShonieStyle entwirft stilvolle Schnittmuster für Damen, Herren, Kinder, Puppen und Accessoires – ideal für liebevolle Partnerlooks."
+
+brand:
+  name: "ShonieStyle"
+  logo_text: "SS"
+
+announcement:
+  text: "15 % Rabatt beim Kauf von 2 oder mehr Schnittmustern. Code: PATTERN15"
+  link_label: "Angebot der Woche"
+  link_url: "/faq/#angebot-der-woche"
+
+navigation:
+  - label: "Start"
+    url: "/"
+  - label: "Kategorien"
+    url: "/#kategorien"
+  - label: "Über die Marke"
+    url: "/#ueber-uns"
+  - label: "FAQ"
+    url: "/faq/"
+
+hero:
+  eyebrow: "Schnittmuster für harmonische Partnerlooks"
+  title: "Doppelte Freude, doppelter Stil."
+  description: "Entdecke liebevoll gestaltete Schnittmuster für Partnerlooks, Mini-Me-Outfits und kreative Accessoires. Jedes Design hilft dir dabei, mit Leichtigkeit stimmige Outfits für dich, dein Kind oder deine Lieblingspuppe zu nähen."
+  primary_label: "Zum Etsy-Shop"
+  primary_url: "https://www.etsy.com/"
+  secondary_label: "FAQ lesen"
+  secondary_url: "/faq/"
+  image: "/assets/images/hero-placeholder.svg"
+  image_alt: "Platzhalter für ein Foto mit abgestimmten Outfits"
+
+about:
+  eyebrow: "Über mich & die Marke"
+  title: "Schnittmuster mit Gefühl für Verbindung"
+  body: "Hinter ShonieStyle steckt die Idee, schöne, alltagstaugliche und kreative Schnitte für gemeinsame Looks zu entwerfen. Die Kollektionen sollen Nähen einfacher machen und gleichzeitig Raum für Persönlichkeit, Komfort und kleine besondere Momente schaffen."
+  points:
+    - "Einfach anpassbare Modelle für verschiedene Größen"
+    - "Zeitlose Schnitte für Erwachsene, Kinder und Puppen"
+    - "Ideal für Geschenkideen, Familienfotos und besondere Anlässe"
+
+faq_preview:
+  eyebrow: "Häufige Fragen"
+  title: "Alles Wichtige auf einen Blick"
+  text: "Hier findest du Antworten zu Downloads, Größen, Etsy-Bestellungen und individuellen Anpassungen."
+  cta_label: "Zur FAQ-Seite"
+  cta_url: "/faq/"
+
+footer:
+  text: "Digitale Schnittmuster für kreative Menschen, die gemeinsame Looks lieben."
+  etsy_label: "Etsy-Shop besuchen"
+  etsy_url: "https://www.etsy.com/"
+  nav_heading: "Navigation"
+  legal_heading: "Rechtliches"
+  contact_heading: "Info"

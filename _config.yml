@@ -1,0 +1,21 @@
+title: ShonieStyle
+email: hello@example.com
+description: Schnittmuster für Partnerlooks, Mini-Me-Outfits und kreative Accessoires.
+lang: de
+timezone: Europe/Berlin
+url: "https://shoniestyle.github.io"
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      lang: de
+
+exclude:
+  - Gemfile.lock
+  - node_modules
+  - vendor

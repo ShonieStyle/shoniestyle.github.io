@@ -1,0 +1,20 @@
+{% assign about = site.data[page.lang].site.about %}
+<section class="section section--alt" id="ueber-uns">
+    <div class="container split-block">
+        <div class="split-block__media">
+            <img src="{{ '/assets/images/about-placeholder.svg' | relative_url }}"
+                alt="Platzhalter für ein Atelier oder Markenfoto">
+        </div>
+
+        <div class="split-block__content">
+            <p class="eyebrow">{{ about.eyebrow }}</p>
+            <h2>{{ about.title }}</h2>
+            <p>{{ about.body }}</p>
+            <ul class="feature-list">
+                {% for point in about.points %}
+                <li>{{ point }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>

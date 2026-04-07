@@ -1,0 +1,30 @@
+<footer class="site-footer">
+    <div class="container footer-grid">
+        <div>
+            <h2>{{ include.content.brand.name }}</h2>
+            <p>{{ include.content.footer.text }}</p>
+            <a class="footer-link" href="{{ include.content.footer.etsy_url }}" target="_blank" rel="noreferrer">{{
+                include.content.footer.etsy_label }}</a>
+        </div>
+
+        <div>
+            <h3>{{ include.content.footer.nav_heading }}</h3>
+            <ul class="footer-list">
+                {% for item in include.content.navigation %}
+                <li><a href="{{ item.url | relative_url }}">{{ item.label }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div>
+            <h3>{{ include.content.footer.legal_heading }}</h3>
+            <ul class="footer-list">
+                <li><a href="{{ '/faq/' | relative_url }}">FAQ</a></li>
+                <li><a href="{{ '/impressum/' | relative_url }}">Impressum</a></li>
+                <li><a href="{{ '/datenschutz/' | relative_url }}">Datenschutzerklärung</a></li>
+                <li><a href="{{ '/agb/' | relative_url }}">AGB</a></li>
+                <li><a href="{{ '/widerrufsbelehrung/' | relative_url }}">Widerrufsbelehrung</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>

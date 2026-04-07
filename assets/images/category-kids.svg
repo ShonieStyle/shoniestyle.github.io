@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#fbf7f0"/>
+  <rect x="70" y="40" width="460" height="370" rx="24" fill="#ffffff" stroke="#e8dfd2"/>
+  <circle cx="300" cy="150" r="48" fill="#f1d1bf"/>
+  <rect x="235" y="198" width="130" height="122" rx="34" fill="#f2cf32"/>
+  <rect x="245" y="320" width="44" height="54" rx="18" fill="#d9b3a5"/>
+  <rect x="311" y="320" width="44" height="54" rx="18" fill="#d9b3a5"/>
+  <text x="300" y="398" text-anchor="middle" font-size="26" font-family="Inter, Arial, sans-serif" fill="#7d7268">Kinder</text>
+</svg>

@@ -1,0 +1,23 @@
+{% assign faq_content = site.data[page.lang].site.faq_preview %}
+{% assign faq_items = site.data[page.lang].faq %}
+<section class="section">
+    <div class="container faq-preview">
+        <div class="section-heading">
+            <p class="eyebrow">{{ faq_content.eyebrow }}</p>
+            <h2>{{ faq_content.title }}</h2>
+            <p>{{ faq_content.text }}</p>
+        </div>
+
+        <div class="faq-list">
+            {% for item in faq_items limit:3 %}
+            <details class="faq-item">
+                <summary>{{ item.question }}</summary>
+                <p>{{ item.answer }}</p>
+            </details>
+            {% endfor %}
+        </div>
+
+        <a class="button button--secondary" href="{{ faq_content.cta_url | relative_url }}">{{ faq_content.cta_label
+            }}</a>
+    </div>
+</section>

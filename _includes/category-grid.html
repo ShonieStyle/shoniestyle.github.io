@@ -1,0 +1,25 @@
+{% assign categories = site.data[page.lang].categories %}
+<section class="section" id="kategorien">
+    <div class="container">
+        <p class="eyebrow">Kollektionen</p>
+        <div class="section-heading">
+            <h2>Unsere Schnittmuster-Kollektionen</h2>
+            <p>Wähle den Bereich, der am besten zu deinem Nähprojekt passt.</p>
+        </div>
+
+        <div class="card-grid">
+            {% for category in categories %}
+            <article class="category-card">
+                <img class="category-card__image" src="{{ category.image | relative_url }}"
+                    alt="{{ category.image_alt }}">
+                <div class="category-card__content">
+                    <p class="category-card__eyebrow">{{ category.eyebrow }}</p>
+                    <h3>{{ category.title }}</h3>
+                    <p>{{ category.description }}</p>
+                    <a href="{{ category.url }}" target="_blank" rel="noreferrer">{{ category.cta_label }}</a>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+    </div>
+</section>
