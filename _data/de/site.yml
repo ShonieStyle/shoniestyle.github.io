@@ -6,21 +6,22 @@ brand:
   logo_image: "/assets/images/logo-shoniestyle.svg"
   logo_image_alt: "ShonieStyle Logo"
   show_name: true
+  home_url: "/de/"
 
 announcement:
   text: "15 % Rabatt beim Kauf von 2 oder mehr Schnittmustern. Code: PATTERN15"
   link_label: "Angebot der Woche"
-  link_url: "/faq/#angebot-der-woche"
+  link_url: "/de/faq/#angebot-der-woche"
 
 navigation:
   - label: "Start"
-    url: "/"
+    url: "/de/"
   - label: "Kategorien"
-    url: "/#kategorien"
+    url: "/de/#kategorien"
   - label: "Über die Marke"
-    url: "/#ueber-uns"
+    url: "/de/#ueber-uns"
   - label: "FAQ"
-    url: "/faq/"
+    url: "/de/faq/"
 
 hero:
   eyebrow: "Schnittmuster für harmonische Partnerlooks"
@@ -29,7 +30,7 @@ hero:
   primary_label: "Zum Etsy-Shop"
   primary_url: "https://www.etsy.com/"
   secondary_label: "FAQ lesen"
-  secondary_url: "/faq/"
+  secondary_url: "/de/faq/"
   image: "/assets/images/hero-placeholder.svg"
   image_alt: "Platzhalter für ein Foto mit abgestimmten Outfits"
 
@@ -47,7 +48,7 @@ faq_preview:
   title: "Alles Wichtige auf einen Blick"
   text: "Hier findest du Antworten zu Downloads, Größen, Etsy-Bestellungen und individuellen Anpassungen."
   cta_label: "Zur FAQ-Seite"
-  cta_url: "/faq/"
+  cta_url: "/de/faq/"
 
 footer:
   text: "Digitale Schnittmuster für kreative Menschen, die gemeinsame Looks lieben."

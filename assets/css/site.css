@@ -85,6 +85,14 @@ img {
     padding: 16px 0;
 }
 
+.site-header__controls {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
 .brand {
     display: inline-flex;
     align-items: center;
@@ -140,6 +148,39 @@ img {
 .site-nav a:hover,
 .site-nav a:focus-visible {
     color: var(--text);
+}
+
+.lang-switcher {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: var(--surface);
+}
+
+.lang-switcher__link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+    min-height: 32px;
+    padding: 0 10px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 800;
+    color: var(--muted);
+}
+
+.lang-switcher__link:hover,
+.lang-switcher__link:focus-visible {
+    color: var(--text);
+}
+
+.lang-switcher__link.is-active {
+    background: var(--pink);
+    color: #fff;
 }
 
 .hero {
@@ -384,6 +425,12 @@ h3 {
     color: #ffd5eb;
 }
 
+.footer-note {
+    margin-top: 12px;
+    font-size: 0.92rem;
+    color: rgba(248, 245, 239, 0.8);
+}
+
 @media (max-width: 900px) {
 
     .hero__grid,
@@ -398,6 +445,7 @@ h3 {
 
     .announcement-bar__inner,
     .site-header__inner,
+    .site-header__controls,
     .hero__actions {
         align-items: flex-start;
         flex-direction: column;
@@ -408,6 +456,10 @@ h3 {
     .footer-grid,
     .card-grid {
         grid-template-columns: 1fr;
+    }
+
+    .site-header__controls {
+        width: 100%;
     }
 
     .hero {

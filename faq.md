@@ -1,13 +1,15 @@
 ---
 layout: page
-lang: de
+lang: en
 title: FAQ
-eyebrow: Häufige Fragen
-lead: Antworten zu Bestellung, Downloads, Größen und digitalen Produkten.
+eyebrow: Frequently asked questions
+lead: Answers about orders, downloads, sizes, and digital products.
 permalink: /faq/
+en_url: /faq/
+de_url: /de/faq/
 ---
 
-## Allgemeine Fragen
+## General questions
 
 {% for item in site.data[page.lang].faq %}
 <details class="faq-item">
@@ -16,14 +18,14 @@ permalink: /faq/
 </details>
 {% endfor %}
 
-## <span id="angebot-der-woche">Angebot der Woche</span>
+## <span id="weekly-offer">Offer of the week</span>
 
-Hier kannst du später dein wöchentliches Highlight, einen Rabatt oder ein ausgewähltes Etsy-Produkt bewerben.
+Use this section to highlight a weekly favorite, a discount, or a selected Etsy product.
 
-- **Titel:** Noch offen
-- **Aktionszeitraum:** Noch offen
-- **Link zum Produkt:** Bitte ergänzen
+- **Title:** To be added
+- **Promotion period:** To be added
+- **Product link:** Please add
 
-## Kontakt
+## Contact
 
-Falls deine Frage hier nicht beantwortet wird, kannst du in deinem Etsy-Shop auf eine Kontaktmöglichkeit oder ein Nachrichtenformular verweisen.
+If your question is not answered here, you can direct visitors to the contact option or message form in your Etsy shop.

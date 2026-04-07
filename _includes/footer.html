@@ -18,13 +18,27 @@
 
         <div>
             <h3>{{ include.content.footer.legal_heading }}</h3>
+            {% assign faq_url = '/faq/' %}
+            {% if page.lang == 'de' %}
+            {% assign faq_url = '/de/faq/' %}
+            {% endif %}
             <ul class="footer-list">
-                <li><a href="{{ '/faq/' | relative_url }}">FAQ</a></li>
+                <li><a href="{{ faq_url | relative_url }}">FAQ</a></li>
+                {% if page.lang == 'en' %}
+                <li><a href="{{ '/impressum/' | relative_url }}">Impressum (DE)</a></li>
+                <li><a href="{{ '/datenschutz/' | relative_url }}">Privacy policy (DE)</a></li>
+                <li><a href="{{ '/agb/' | relative_url }}">Terms & conditions (DE)</a></li>
+                <li><a href="{{ '/widerrufsbelehrung/' | relative_url }}">Cancellation policy (DE)</a></li>
+                {% else %}
                 <li><a href="{{ '/impressum/' | relative_url }}">Impressum</a></li>
                 <li><a href="{{ '/datenschutz/' | relative_url }}">Datenschutzerklärung</a></li>
                 <li><a href="{{ '/agb/' | relative_url }}">AGB</a></li>
                 <li><a href="{{ '/widerrufsbelehrung/' | relative_url }}">Widerrufsbelehrung</a></li>
+                {% endif %}
             </ul>
+            {% if page.lang == 'en' %}
+            <p class="footer-note">Legal documents are provided in German for compliance purposes.</p>
+            {% endif %}
         </div>
     </div>
 </footer>

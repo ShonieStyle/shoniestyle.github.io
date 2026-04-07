@@ -1,5 +1,7 @@
-{% assign lang = page.lang | default: site.lang | default: 'de' %}
+{% assign lang = page.lang | default: site.lang | default: 'en' %}
 {% assign content_data = site.data[lang].site %}
+{% assign en_alt = page.en_url | default: '/' %}
+{% assign de_alt = page.de_url | default: '/de/' %}
 <!doctype html>
 <html lang="{{ lang }}">
 
@@ -9,9 +11,12 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ page.description | default: content_data.meta_description | escape }}">
     <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+    <link rel="alternate" hreflang="en" href="{{ en_alt | absolute_url }}">
+    <link rel="alternate" hreflang="de" href="{{ de_alt | absolute_url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ en_alt | absolute_url }}">
 </head>
 
-<body>
+<body data-page-lang="{{ lang }}">
     {% include announcement-bar.html content=content_data %}
     {% include header.html content=content_data %}
 
@@ -20,6 +25,57 @@
     </main>
 
     {% include footer.html content=content_data %}
+
+    <script>
+        (function () {
+            try {
+                var storageKey = 'shoniestyle-locale';
+                document.querySelectorAll('[data-locale-choice]').forEach(function (link) {
+                    link.addEventListener('click', function () {
+                        localStorage.setItem(storageKey, link.getAttribute('data-locale-choice'));
+                    });
+                });
+            } catch (e) {
+                // ignore storage issues
+            }
+        })();
+    </script>
+    {% if page.enable_locale_redirect %}
+    <script>
+        (function () {
+            try {
+                var storageKey = 'shoniestyle-locale';
+                var savedLocale = localStorage.getItem(storageKey);
+                var browserLanguage = (navigator.language || navigator.userLanguage || '').toLowerCase();
+
+                function normalize(path) {
+                    var value = (path || '/').replace(/index\.html$/, '');
+                    value = value.replace(/\/+$/, '/');
+                    return value === '' ? '/' : value;
+                }
+
+                var currentPath = normalize(window.location.pathname);
+                var englishUrl = normalize("{{ page.en_url | default: '/' | relative_url }}");
+                var germanUrl = normalize("{{ page.de_url | default: '/de/' | relative_url }}");
+
+                if (savedLocale === 'de' && currentPath === englishUrl) {
+                    window.location.replace(germanUrl);
+                    return;
+                }
+
+                if (savedLocale === 'en') {
+                    return;
+                }
+
+                if (browserLanguage.indexOf('de') === 0 && currentPath === englishUrl) {
+                    window.location.replace(germanUrl);
+                }
+            } catch (e) {
+                // ignore redirect issues
+            }
+        })();
+    </script>
+    {% endif %}
 </body>
 
 </html>

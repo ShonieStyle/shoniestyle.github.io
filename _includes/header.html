@@ -1,7 +1,17 @@
 <header class="site-header">
     <div class="container site-header__inner">
         {% assign brand = include.content.brand %}
-        <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ brand.name }}">
+        {% assign brand_home = brand.home_url | default: '/' %}
+        {% assign en_url = page.en_url | default: '/' %}
+        {% assign de_url = page.de_url | default: '/de/' %}
+
+        {% if page.url == '/impressum/' or page.url == '/datenschutz/' or page.url == '/agb/' or page.url ==
+        '/widerrufsbelehrung/' %}
+        {% assign en_url = '/' %}
+        {% assign de_url = page.url %}
+        {% endif %}
+
+        <a class="brand" href="{{ brand_home | relative_url }}" aria-label="{{ brand.name }}">
             {% if brand.logo_image != blank %}
             <span class="brand__mark brand__mark--image">
                 <img class="brand__image" src="{{ brand.logo_image | relative_url }}"
@@ -16,10 +26,21 @@
             {% endif %}
         </a>
 
-        <nav class="site-nav" aria-label="Hauptnavigation">
-            {% for item in include.content.navigation %}
-            <a href="{{ item.url | relative_url }}">{{ item.label }}</a>
-            {% endfor %}
-        </nav>
+        <div class="site-header__controls">
+            <nav class="site-nav"
+                aria-label="{% if page.lang == 'en' %}Primary navigation{% else %}Hauptnavigation{% endif %}">
+                {% for item in include.content.navigation %}
+                <a href="{{ item.url | relative_url }}">{{ item.label }}</a>
+                {% endfor %}
+            </nav>
+
+            <div class="lang-switcher"
+                aria-label="{% if page.lang == 'en' %}Language switcher{% else %}Sprachauswahl{% endif %}">
+                <a class="lang-switcher__link {% if page.lang == 'en' %}is-active{% endif %}"
+                    href="{{ en_url | relative_url }}" data-locale-choice="en" lang="en" hreflang="en">EN</a>
+                <a class="lang-switcher__link {% if page.lang == 'de' %}is-active{% endif %}"
+                    href="{{ de_url | relative_url }}" data-locale-choice="de" lang="de" hreflang="de">DE</a>
+            </div>
+        </div>
     </div>
 </header>

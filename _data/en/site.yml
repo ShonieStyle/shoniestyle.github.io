@@ -1,0 +1,59 @@
+meta_description: "ShonieStyle creates stylish sewing patterns for women, men, children, dolls, and accessories — perfect for charming matching looks."
+
+brand:
+  name: "ShonieStyle"
+  logo_text: "SS"
+  logo_image: "/assets/images/logo-shoniestyle.svg"
+  logo_image_alt: "ShonieStyle Logo"
+  show_name: true
+  home_url: "/"
+
+announcement:
+  text: "15% off when you buy 2 or more patterns. Code: PATTERN15"
+  link_label: "Offer of the week"
+  link_url: "/faq/#weekly-offer"
+
+navigation:
+  - label: "Home"
+    url: "/"
+  - label: "Categories"
+    url: "/#kategorien"
+  - label: "About"
+    url: "/#ueber-uns"
+  - label: "FAQ"
+    url: "/faq/"
+
+hero:
+  eyebrow: "Sewing patterns for beautiful matching looks"
+  title: "Double the joy, double the style."
+  description: "Discover lovingly designed sewing patterns for matching outfits, mini-me looks, and creative accessories. Each design helps you create coordinated outfits for yourself, your child, or a favorite doll with ease."
+  primary_label: "Visit Etsy shop"
+  primary_url: "https://www.etsy.com/"
+  secondary_label: "Read the FAQ"
+  secondary_url: "/faq/"
+  image: "/assets/images/hero-placeholder.svg"
+  image_alt: "Placeholder for a photo with coordinated outfits"
+
+about:
+  eyebrow: "About me & the brand"
+  title: "Patterns created with a sense of connection"
+  body: "ShonieStyle is built around the idea of designing beautiful, practical patterns for shared looks. The collections are made to simplify sewing while leaving room for personality, comfort, and small special moments."
+  points:
+    - "Easy-to-adapt designs for different sizes"
+    - "Timeless styles for adults, children, and dolls"
+    - "Perfect for gifts, family photos, and special occasions"
+
+faq_preview:
+  eyebrow: "Frequently asked questions"
+  title: "Everything important at a glance"
+  text: "Find answers about downloads, sizes, Etsy orders, and customisation here."
+  cta_label: "Go to the FAQ"
+  cta_url: "/faq/"
+
+footer:
+  text: "Digital sewing patterns for creative people who love coordinated looks."
+  etsy_label: "Visit Etsy shop"
+  etsy_url: "https://www.etsy.com/"
+  nav_heading: "Navigation"
+  legal_heading: "Legal"
+  contact_heading: "Info"
