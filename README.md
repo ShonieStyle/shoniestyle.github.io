@@ -12,6 +12,7 @@
 | Текст на главной, кнопки, верхнюю плашку, footer | `_data/en/site.yml` и `_data/de/site.yml` |
 | Вопросы и ответы FAQ | `_data/en/faq.yml` и `_data/de/faq.yml` |
 | Карточки категорий | `_data/en/categories.yml` и `_data/de/categories.yml` |
+| Логотип сайта | `_data/en/site.yml`, `_data/de/site.yml`, `assets/images/` |
 | Порядок блоков на главной | `_layouts/home.html` |
 | Структуру страницы FAQ | `_layouts/faq.html` |
 | Юридические страницы | `impressum.md`, `datenschutz.md`, `agb.md`, `widerrufsbelehrung.md` |
@@ -124,6 +125,52 @@ hero:
 
 ```yml
 image: "/assets/images/category-women.jpg"
+```
+
+---
+
+### Пример 6 — поменять логотип
+Логотип настраивается в:
+- `_data/en/site.yml`
+- `_data/de/site.yml`
+
+#### Вариант A — текстовый логотип
+
+```yml
+brand:
+  name: "ShonieStyle"
+  logo_text: "SS"
+  show_name: true
+```
+
+Можно менять:
+- `name` — название бренда
+- `logo_text` — буквы внутри логотипа
+- `show_name` — показывать ли название рядом
+
+#### Вариант B — логотип-картинка
+1. Загрузите файл в `assets/images/`, например `logo.png` или `logo.svg`
+2. Укажите путь в `site.yml`
+
+```yml
+brand:
+  name: "ShonieStyle"
+  logo_text: "SS"
+  logo_image: "/assets/images/logo.png"
+  logo_image_alt: "ShonieStyle logo"
+  show_name: true
+```
+
+Если в картинке уже есть название бренда, можно поставить:
+
+```yml
+show_name: false
+```
+
+Чтобы вернуть текстовый логотип, достаточно удалить `logo_image` или оставить так:
+
+```yml
+logo_image: ""
 ```
 
 ---
