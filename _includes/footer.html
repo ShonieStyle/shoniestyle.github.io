@@ -1,9 +1,10 @@
 <footer class="site-footer">
+    {% assign shop_url = include.content.shop_url | default: include.content.footer.etsy_url %}
     <div class="container footer-grid">
         <div>
             <h2>{{ include.content.brand.name }}</h2>
             <p>{{ include.content.footer.text }}</p>
-            <a class="footer-link" href="{{ include.content.footer.etsy_url }}" target="_blank" rel="noreferrer">{{
+            <a class="footer-link" href="{{ shop_url }}" target="_blank" rel="noreferrer">{{
                 include.content.footer.etsy_label }}</a>
         </div>
 
@@ -18,26 +19,13 @@
 
         <div>
             <h3>{{ include.content.footer.legal_heading }}</h3>
-            {% assign faq_url = '/faq/' %}
-            {% if page.lang == 'de' %}
-            {% assign faq_url = '/de/faq/' %}
-            {% endif %}
             <ul class="footer-list">
-                <li><a href="{{ faq_url | relative_url }}">FAQ</a></li>
-                {% if page.lang == 'en' %}
-                <li><a href="{{ '/impressum/' | relative_url }}">Impressum (DE)</a></li>
-                <li><a href="{{ '/datenschutz/' | relative_url }}">Privacy policy (DE)</a></li>
-                <li><a href="{{ '/agb/' | relative_url }}">Terms & conditions (DE)</a></li>
-                <li><a href="{{ '/widerrufsbelehrung/' | relative_url }}">Cancellation policy (DE)</a></li>
-                {% else %}
-                <li><a href="{{ '/impressum/' | relative_url }}">Impressum</a></li>
-                <li><a href="{{ '/datenschutz/' | relative_url }}">Datenschutzerklärung</a></li>
-                <li><a href="{{ '/agb/' | relative_url }}">AGB</a></li>
-                <li><a href="{{ '/widerrufsbelehrung/' | relative_url }}">Widerrufsbelehrung</a></li>
-                {% endif %}
+                {% for item in include.content.footer.legal_links %}
+                <li><a href="{{ item.url | relative_url }}">{{ item.label }}</a></li>
+                {% endfor %}
             </ul>
-            {% if page.lang == 'en' %}
-            <p class="footer-note">Legal documents are provided in German for compliance purposes.</p>
+            {% if include.content.footer.legal_note %}
+            <p class="footer-note">{{ include.content.footer.legal_note }}</p>
             {% endif %}
         </div>
     </div>

@@ -1,10 +1,12 @@
+{% assign site_content = site.data[page.lang].site %}
 {% assign categories = site.data[page.lang].categories %}
+{% assign collections = site_content.collections %}
 <section class="section" id="kategorien">
     <div class="container">
-        <p class="eyebrow">Kollektionen</p>
+        <p class="eyebrow">{{ collections.eyebrow }}</p>
         <div class="section-heading">
-            <h2>Unsere Schnittmuster-Kollektionen</h2>
-            <p>Wähle den Bereich, der am besten zu deinem Nähprojekt passt.</p>
+            <h2>{{ collections.title }}</h2>
+            <p>{{ collections.description }}</p>
         </div>
 
         <div class="card-grid">

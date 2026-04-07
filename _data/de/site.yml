@@ -13,6 +13,8 @@ announcement:
   link_label: "Angebot der Woche"
   link_url: "/de/faq/#angebot-der-woche"
 
+shop_url: "https://www.etsy.com/"
+
 navigation:
   - label: "Start"
     url: "/de/"
@@ -28,11 +30,15 @@ hero:
   title: "Doppelte Freude, doppelter Stil."
   description: "Entdecke liebevoll gestaltete Schnittmuster für Partnerlooks, Mini-Me-Outfits und kreative Accessoires. Jedes Design hilft dir dabei, mit Leichtigkeit stimmige Outfits für dich, dein Kind oder deine Lieblingspuppe zu nähen."
   primary_label: "Zum Etsy-Shop"
-  primary_url: "https://www.etsy.com/"
   secondary_label: "FAQ lesen"
   secondary_url: "/de/faq/"
   image: "/assets/images/hero-placeholder.svg"
   image_alt: "Platzhalter für ein Foto mit abgestimmten Outfits"
+
+collections:
+  eyebrow: "Kollektionen"
+  title: "Unsere Schnittmuster-Kollektionen"
+  description: "Wähle den Bereich, der am besten zu deinem Nähprojekt passt."
 
 about:
   eyebrow: "Über mich & die Marke"
@@ -53,7 +59,17 @@ faq_preview:
 footer:
   text: "Digitale Schnittmuster für kreative Menschen, die gemeinsame Looks lieben."
   etsy_label: "Etsy-Shop besuchen"
-  etsy_url: "https://www.etsy.com/"
   nav_heading: "Navigation"
   legal_heading: "Rechtliches"
   contact_heading: "Info"
+  legal_links:
+    - label: "FAQ"
+      url: "/de/faq/"
+    - label: "Impressum"
+      url: "/impressum/"
+    - label: "Datenschutzerklärung"
+      url: "/datenschutz/"
+    - label: "AGB"
+      url: "/agb/"
+    - label: "Widerrufsbelehrung"
+      url: "/widerrufsbelehrung/"

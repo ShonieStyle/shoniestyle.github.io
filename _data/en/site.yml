@@ -13,6 +13,8 @@ announcement:
   link_label: "Offer of the week"
   link_url: "/faq/#weekly-offer"
 
+shop_url: "https://www.etsy.com/"
+
 navigation:
   - label: "Home"
     url: "/"
@@ -28,11 +30,15 @@ hero:
   title: "Double the joy, double the style."
   description: "Discover lovingly designed sewing patterns for matching outfits, mini-me looks, and creative accessories. Each design helps you create coordinated outfits for yourself, your child, or a favorite doll with ease."
   primary_label: "Visit Etsy shop"
-  primary_url: "https://www.etsy.com/"
   secondary_label: "Read the FAQ"
   secondary_url: "/faq/"
   image: "/assets/images/hero-placeholder.svg"
   image_alt: "Placeholder for a photo with coordinated outfits"
+
+collections:
+  eyebrow: "Collections"
+  title: "Our sewing pattern collections"
+  description: "Choose the area that best fits your next sewing project."
 
 about:
   eyebrow: "About me & the brand"
@@ -53,7 +59,18 @@ faq_preview:
 footer:
   text: "Digital sewing patterns for creative people who love coordinated looks."
   etsy_label: "Visit Etsy shop"
-  etsy_url: "https://www.etsy.com/"
   nav_heading: "Navigation"
   legal_heading: "Legal"
   contact_heading: "Info"
+  legal_note: "Legal documents are provided in German for compliance purposes."
+  legal_links:
+    - label: "FAQ"
+      url: "/faq/"
+    - label: "Impressum (DE)"
+      url: "/impressum/"
+    - label: "Privacy policy (DE)"
+      url: "/datenschutz/"
+    - label: "Terms & conditions (DE)"
+      url: "/agb/"
+    - label: "Cancellation policy (DE)"
+      url: "/widerrufsbelehrung/"

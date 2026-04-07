@@ -1,4 +1,6 @@
-{% assign hero = site.data[page.lang].site.hero %}
+{% assign site_content = site.data[page.lang].site %}
+{% assign hero = site_content.hero %}
+{% assign shop_url = site_content.shop_url | default: hero.primary_url %}
 <section class="hero">
     <div class="container hero__grid">
         <div class="hero__content">
@@ -7,7 +9,7 @@
             <p class="hero__description">{{ hero.description }}</p>
 
             <div class="hero__actions">
-                <a class="button button--primary" href="{{ hero.primary_url }}" target="_blank" rel="noreferrer">{{
+                <a class="button button--primary" href="{{ shop_url }}" target="_blank" rel="noreferrer">{{
                     hero.primary_label }}</a>
                 <a class="button button--secondary" href="{{ hero.secondary_url | relative_url }}">{{
                     hero.secondary_label }}</a>
