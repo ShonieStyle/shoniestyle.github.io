@@ -4,9 +4,9 @@
         {% assign brand_home = brand.home_url | default: '/' %}
         {% assign en_url = page.en_url | default: '/' %}
         {% assign de_url = page.de_url | default: '/de/' %}
+        {% assign legal_page_urls = site.legal_page_urls | default: empty %}
 
-        {% if page.url == '/impressum/' or page.url == '/datenschutz/' or page.url == '/agb/' or page.url ==
-        '/widerrufsbelehrung/' %}
+        {% if legal_page_urls contains page.url %}
         {% assign en_url = '/' %}
         {% assign de_url = page.url %}
         {% endif %}

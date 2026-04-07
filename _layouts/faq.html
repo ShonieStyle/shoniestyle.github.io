@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+{% assign faq_page = site.data[page.lang].site.faq_page %}
+
+<section class="page-hero">
+    <div class="container">
+        <p class="eyebrow">{{ faq_page.eyebrow | default: 'FAQ' }}</p>
+        <h1>{{ page.title }}</h1>
+        {% if faq_page.lead %}
+        <p class="page-lead">{{ faq_page.lead }}</p>
+        {% endif %}
+    </div>
+</section>
+
+<section class="page-content">
+    <div class="container rte">
+        <h2>{{ faq_page.general_heading }}</h2>
+
+        {% for item in site.data[page.lang].faq %}
+        <details class="faq-item">
+            <summary>{{ item.question }}</summary>
+            <p>{{ item.answer }}</p>
+        </details>
+        {% endfor %}
+
+        <h2><span id="{{ faq_page.offer_anchor }}">{{ faq_page.offer_heading }}</span></h2>
+
+        <p>{{ faq_page.offer_text }}</p>
+
+        <ul>
+            {% for field in faq_page.offer_fields %}
+            <li><strong>{{ field.label }}:</strong> {{ field.value }}</li>
+            {% endfor %}
+        </ul>
+
+        <h2>{{ faq_page.contact_heading }}</h2>
+
+        <p>{{ faq_page.contact_text }}</p>
+    </div>
+</section>

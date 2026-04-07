@@ -56,6 +56,23 @@ faq_preview:
   cta_label: "Go to the FAQ"
   cta_url: "/faq/"
 
+faq_page:
+  eyebrow: "Frequently asked questions"
+  lead: "Answers about orders, downloads, sizes, and digital products."
+  general_heading: "General questions"
+  offer_anchor: "weekly-offer"
+  offer_heading: "Offer of the week"
+  offer_text: "Use this section to highlight a weekly favorite, a discount, or a selected Etsy product."
+  offer_fields:
+    - label: "Title"
+      value: "To be added"
+    - label: "Promotion period"
+      value: "To be added"
+    - label: "Product link"
+      value: "Please add"
+  contact_heading: "Contact"
+  contact_text: "If your question is not answered here, you can direct visitors to the contact option or message form in your Etsy shop."
+
 footer:
   text: "Digital sewing patterns for creative people who love coordinated looks."
   etsy_label: "Visit Etsy shop"

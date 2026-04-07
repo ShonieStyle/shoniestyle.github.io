@@ -2,6 +2,11 @@
 {% assign content_data = site.data[lang].site %}
 {% assign en_alt = page.en_url | default: '/' %}
 {% assign de_alt = page.de_url | default: '/de/' %}
+{% assign legal_page_urls = site.legal_page_urls | default: empty %}
+{% if legal_page_urls contains page.url %}
+{% assign en_alt = '/' %}
+{% assign de_alt = page.url %}
+{% endif %}
 <!doctype html>
 <html lang="{{ lang }}">
 

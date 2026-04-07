@@ -56,6 +56,23 @@ faq_preview:
   cta_label: "Zur FAQ-Seite"
   cta_url: "/de/faq/"
 
+faq_page:
+  eyebrow: "Häufige Fragen"
+  lead: "Antworten zu Bestellung, Downloads, Größen und digitalen Produkten."
+  general_heading: "Allgemeine Fragen"
+  offer_anchor: "angebot-der-woche"
+  offer_heading: "Angebot der Woche"
+  offer_text: "Hier kannst du später dein wöchentliches Highlight, einen Rabatt oder ein ausgewähltes Etsy-Produkt bewerben."
+  offer_fields:
+    - label: "Titel"
+      value: "Noch offen"
+    - label: "Aktionszeitraum"
+      value: "Noch offen"
+    - label: "Link zum Produkt"
+      value: "Bitte ergänzen"
+  contact_heading: "Kontakt"
+  contact_text: "Falls deine Frage hier nicht beantwortet wird, kannst du in deinem Etsy-Shop auf eine Kontaktmöglichkeit oder ein Nachrichtenformular verweisen."
+
 footer:
   text: "Digitale Schnittmuster für kreative Menschen, die gemeinsame Looks lieben."
   etsy_label: "Etsy-Shop besuchen"
