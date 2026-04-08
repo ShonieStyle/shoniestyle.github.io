@@ -65,11 +65,11 @@ faq_page:
   offer_text: "Entdecken Sie meine neuesten Designs, saisonale Rabatte und exklusive Highlights direkt in meinem Etsy-Shop. Alle aktuellen Aktionen finden Sie dort immer tagesaktuell."
   offer_fields:
     - label: "Etsy Shop"
-      value: "Besuchen Sie ShonieStyle auf Etsy"
-    - label: "Link"
-      value: "https://www.etsy.com/shop/ShonieStylePattern"
+      value: "<a href='https://www.etsy.com/shop/ShonieStylePattern' target='_blank'>Besuchen Sie ShonieStyle auf Etsy</a>"
+    - label: "Direktlink"
+      value: "<a href='https://www.etsy.com/shop/ShonieStylePattern' target='_blank'>etsy.com/shop/ShonieStylePattern</a>"
   contact_heading: "Haben Sie weitere Fragen?"
-  contact_text: "Benötigen Sie Hilfe zu einem Schnittmuster oder haben Sie individuelle Fragen? Schreiben Sie mir gerne direkt über meinen <b>Etsy-Shop</b> (Schaltfläche «Verkäufer kontaktieren») oder via <b>Instagram</b>. Da wir uns eventuell in unterschiedlichen Zeitzonen befinden, planen Sie bitte bis zu <b>24 Stunden</b> für eine Antwort ein."
+  contact_text: "Benötigen Sie Hilfe zu einem Schnittmuster oder haben Sie individuelle Fragen? Schreiben Sie mir gerne direkt über meinen <a href='https://www.etsy.com/de-en/messages/new?with_id=984986646&referring_id=4392524901&referring_type=listing&recipient_id=984986646&from_action=contact-seller' target='_blank'><b>Etsy-Shop</b></a> (Schaltfläche «Verkäufer kontaktieren») oder via <a href='https://www.instagram.com/shoniestylepattern' target='_blank'><b>Instagram</b></a>. Da wir uns eventuell in unterschiedlichen Zeitzonen befinden, planen Sie bitte bis zu <b>24 Stunden</b> für eine Antwort ein."
   
 footer:
   text: "Digitale Schnittmuster für kreative Menschen, die gemeinsame Looks lieben."
