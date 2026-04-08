@@ -1,9 +1,9 @@
 ---
 layout: page
 lang: de
-title: AGB
-eyebrow: Rechtliches
-lead: The following legal notice is provided in German to comply with local regulations.
+title: AGB / Terms & Conditions
+eyebrow: Rechtliches / Legal
+lead: Allgemeine Geschäftsbedingungen. / The following terms and conditions are provided in German to comply with local regulations.
 permalink: /agb/
 ---
 
