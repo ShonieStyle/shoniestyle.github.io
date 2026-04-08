@@ -9,11 +9,11 @@ brand:
   home_url: "/"
 
 announcement:
-  text: "15% off when you buy 2 or more patterns. Code: PATTERN15"
-  link_label: "Offer of the week"
-  link_url: "/faq/#weekly-offer"
+  text: "✨ Every Monday, one special item goes on sale! ✨"
+  link_label: "View on Etsy"
+  link_url: "https://www.etsy.com/shop/ShonieStylePattern?section_id=1"
 
-shop_url: "https://www.etsy.com/"
+shop_url: "https://www.etsy.com/shop/ShonieStylePattern"
 
 navigation:
   - label: "Home"
