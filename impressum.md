@@ -7,7 +7,7 @@ lead: The following legal notice is provided in German to comply with local regu
 permalink: /impressum/
 ---
 
-## Angaben gemäß § 5 TMG / Information according to § 5 TMG
+### Angaben gemäß § 5 TMG / Information according to § 5 TMG
 Olga Smirnova 
 c/o POSTFLEX PFX-367-460 
 Emsdettener Straße 10 
