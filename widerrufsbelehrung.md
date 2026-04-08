@@ -3,21 +3,15 @@ layout: page
 lang: de
 title: Widerrufsbelehrung
 eyebrow: Rechtliches
-lead: Informationen zum Widerruf bei digitalen Inhalten.
+lead: Cancellation policy for digital downloads.
 permalink: /widerrufsbelehrung/
 ---
 
-> Hinweis: Für digitale Produkte gelten in Deutschland und der EU besondere Regeln. Diese Vorlage muss vor Veröffentlichung geprüft und an dein tatsächliches Verkaufsmodell angepasst werden.
+Da der Verkauf unserer digitalen Schnittmuster ausschließlich über die Plattform Etsy stattfindet, gelten für alle Käufe die Widerrufsbedingungen unseres Etsy-Shops.
 
-## Widerrufsrecht
+**Besonderer Hinweis zu digitalen Inhalten (PDF-Schnittmuster):**
+Nach den gesetzlichen Bestimmungen für digitale Inhalte erlischt das Widerrufsrecht vorzeitig, wenn der Vertrag vollständig erfüllt ist und die Bereitstellung des digitalen Inhalts (z. B. der Download) begonnen hat. Beim Kauf über Etsy stimmen Sie diesem vorzeitigen Erlöschen des Widerrufsrechts vor dem Download ausdrücklich zu. Dieser rechtliche Prozess wird direkt durch die Plattform Etsy beim Checkout abgewickelt.
 
-Verbraucher haben grundsätzlich ein vierzehntägiges Widerrufsrecht, soweit nicht eine gesetzliche Ausnahme greift.
+Unsere detaillierte Widerrufsbelehrung finden Sie in den Shop-Richtlinien unseres Etsy-Shops unter folgendem Link:
 
-## Ausschluss bzw. vorzeitiges Erlöschen
-
-Bei digitalen Inhalten kann das Widerrufsrecht unter bestimmten Voraussetzungen erlöschen, wenn ausdrücklich zugestimmt wurde, dass mit der Ausführung des Vertrags vor Ablauf der Widerrufsfrist begonnen wird.
-
-## Muster-Widerrufsformular
-
-An: [Bitte ergänzen]  
-Hiermit widerrufe ich den von mir abgeschlossenen Vertrag über den Kauf der folgenden Waren / digitalen Inhalte: [Bitte ergänzen]
+[Hier klicken, um zur Widerrufsbelehrung auf Etsy zu gelangen](https://www.etsy.com/shop/ShonieStylePattern#policies)
