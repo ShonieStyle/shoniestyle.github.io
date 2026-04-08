@@ -468,3 +468,19 @@ h3 {
         padding-top: 28px;
     }
 }
+
+/* Делаем полоску объявления желтой и центрируем текст */
+.announcement, .announcement-bar {
+    background-color: #FFD740 !important; /* Тот самый желтый */
+    color: #000000 !important;           /* Черный текст */
+    text-align: center !important;        /* Текст в центр */
+    padding: 10px 0;
+    display: block !important;
+}
+
+/* Делаем ссылку внутри блока тоже черной и красивой */
+.announcement a, .announcement-bar a {
+    color: #000000 !important;
+    font-weight: bold;
+    margin-left: 10px;
+}
