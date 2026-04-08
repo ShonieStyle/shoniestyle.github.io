@@ -2,8 +2,8 @@
 layout: page
 lang: de
 title: Impressum / Imprint
-eyebrow: Rechtliches
-lead: The following legal notice is provided in German to comply with local regulations.
+eyebrow: Rechtliches / Legal
+lead: Pflichtangaben gemäß deutschem Recht. / The following legal notice is provided in German to comply with local regulations.
 permalink: /impressum/
 ---
 
