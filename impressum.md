@@ -8,10 +8,10 @@ permalink: /impressum/
 ---
 
 ### Angaben gemäß § 5 TMG / Information according to § 5 TMG
-Olga Smirnova 
-c/o POSTFLEX PFX-367-460 
-Emsdettener Straße 10 
-48268 Greven 
+Olga Smirnova<br>
+c/o POSTFLEX PFX-367-460<br>
+Emsdettener Straße 10<br>
+48268 Greven<br>
 *Bitte keine Pakete oder Päckchen an diese Anschrift senden.*
 
 ### Kontakt 
