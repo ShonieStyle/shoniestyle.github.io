@@ -24,3 +24,9 @@ Gemäß § 19 UStG wird keine Umsatzsteuer berechnet und ausgewiesen (Kleinunter
 **Verbraucherstreitbeilegung / Universalschlichtungsstelle**
 
 Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+
+### Haftungsausschluss für Marken / Brand Disclaimer
+
+**DE:** Dieser Shop und die darin enthaltenen Schnittmuster stehen in keiner Verbindung zu Markenherstellern (z.B. Mattel, MGA Entertainment, Obitsu, Takara Tomy). Die Nennung von Markennamen erfolgt ausschließlich zur Beschreibung der Passform und Kompatibilität der Produkte.
+
+**EN:** This shop and its patterns are not affiliated with, endorsed by, or associated with any doll brand or manufacturer (including but not limited to Mattel, MGA Entertainment, Obitsu). Brand names are used solely for size compatibility and descriptive purposes.
