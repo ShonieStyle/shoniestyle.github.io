@@ -8,14 +8,14 @@ permalink: /impressum/
 ---
 
 ### Angaben gemäß § 5 TMG / Information according to § 5 TMG
-Olga Smirnova<br>
+**Olga Smirnova**<br>
 c/o POSTFLEX PFX-367-460<br>
 Emsdettener Straße 10<br>
 48268 Greven<br>
 *Bitte keine Pakete oder Päckchen an diese Anschrift senden.*
 
 ### Kontakt 
-E-Mail:  olga.shoniestyle@gmail.com 
+**E-Mail:**  olga.shoniestyle@gmail.com 
 
 ### Umsatzsteuer-ID / Tax Information
 Gemäß § 19 UStG wird keine Umsatzsteuer berechnet und ausgewiesen (Kleinunternehmerstatus).
