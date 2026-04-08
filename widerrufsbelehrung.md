@@ -1,9 +1,9 @@
 ---
 layout: page
 lang: de
-title: Widerrufsbelehrung
-eyebrow: Rechtliches
-lead: Cancellation policy for digital downloads.
+title: Widerrufsbelehrung / Cancellation Policy
+eyebrow: Rechtliches / Legal
+lead: Informationen zum Widerruf bei digitalen Inhalten. / Cancellation policy for digital downloads.
 permalink: /widerrufsbelehrung/
 ---
 
