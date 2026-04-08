@@ -1,13 +1,24 @@
+{% if page.url contains '/de/' %}
+  {% assign promo_text = "✨ Jeden Montag ein neues Schnittmuster im Angebot! ✨" %}
+  {% assign promo_link = "Bei Etsy ansehen" %}
+  {% assign code_20 = "20% Rabatt ab 3 Schnittmustern. Code: <b>SEW03</b>" %}
+  {% assign code_25 = "25% Rabatt ab 5 Schnittmustern. Code: <b>SEW05</b>" %}
+{% else %}
+  {% assign promo_text = "✨ Every Monday, one special item goes on sale! ✨" %}
+  {% assign promo_link = "View on Etsy" %}
+  {% assign code_20 = "20% off 3+ patterns. Use code: <b>SEW03</b>" %}
+  {% assign code_25 = "25% off 5+ patterns. Use code: <b>SEW05</b>" %}
+{% endif %}
+
 <div style="background-color: #FFD740; padding: 10px 5%; color: #000; font-family: sans-serif; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; width: 100%; box-sizing: border-box;">
     
     <div style="display: flex; align-items: center; gap: 15px; flex: 1; justify-content: center; min-width: 320px;">
-        <span style="font-size: 14px; font-weight: 500;">✨ Every Monday, one special item goes on sale! ✨</span>
-        <a href="https://www.etsy.com/shop/ShonieStylePattern?section_id=1" style="color: #E6007E; font-weight: bold; text-decoration: underline; white-space: nowrap;">View on Etsy</a>
+        <span style="font-size: 14px; font-weight: 500;">{{ promo_text }}</span>
+        <a href="https://www.etsy.com/shop/ShonieStylePattern?section_id=1" style="color: #E6007E; font-weight: bold; text-decoration: underline; white-space: nowrap;">{{ promo_link }}</a>
     </div>
 
     <div style="font-size: 12px; line-height: 1.4; text-align: left; border-left: 1px solid rgba(0,0,0,0.1); padding-left: 15px; min-width: 230px;">
-        <div>20% off 3+ patterns. Use code: <b>SEW03</b></div>
-        <div>25% off 5+ patterns. Use code: <b>SEW05</b></div>
+        <div>{{ code_20 }}</div>
+        <div>{{ code_25 }}</div>
     </div>
-
 </div>
