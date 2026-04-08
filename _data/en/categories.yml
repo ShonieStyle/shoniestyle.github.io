@@ -1,29 +1,29 @@
-- key: women
-  eyebrow: "Women"
-  title: "Sewing patterns for women"
-  description: "Dresses, blouses, and modern basics for stylish matching looks."
-  url: "https://www.etsy.com/shop/ShonieStylePattern"
-  cta_label: "View collection"
-  image: "/assets/images/category-women.svg"
-  image_alt: "Placeholder for women's collection"
+#- key: women
+#  eyebrow: "Women"
+#  title: "Sewing patterns for women"
+#  description: "Dresses, blouses, and modern basics for stylish matching looks."
+#  url: "https://www.etsy.com/shop/ShonieStylePattern"
+#  cta_label: "View collection"
+#  image: "/assets/images/category-women.svg"
+#  image_alt: "Placeholder for women's collection"
 
-- key: men
-  eyebrow: "Men"
-  title: "Sewing patterns for men"
-  description: "Clean, timeless cuts for coordinated outfits with character."
-  url: "https://www.etsy.com/shop/ShonieStylePattern"
-  cta_label: "View collection"
-  image: "/assets/images/category-men.svg"
-  image_alt: "Placeholder for men's collection"
+#- key: men
+#  eyebrow: "Men"
+#  title: "Sewing patterns for men"
+#  description: "Clean, timeless cuts for coordinated outfits with character."
+#  url: "https://www.etsy.com/shop/ShonieStylePattern"
+#  cta_label: "View collection"
+#  image: "/assets/images/category-men.svg"
+#  image_alt: "Placeholder for men's collection"
 
-- key: kids
-  eyebrow: "Kids"
-  title: "Sewing patterns for children"
-  description: "Comfortable, charming designs for everyday wear, celebrations, and matching outfits."
-  url: "https://www.etsy.com/shop/ShonieStylePattern"
-  cta_label: "View collection"
-  image: "/assets/images/category-kids.svg"
-  image_alt: "Placeholder for children's collection"
+#- key: kids
+#  eyebrow: "Kids"
+#  title: "Sewing patterns for children"
+#  description: "Comfortable, charming designs for everyday wear, celebrations, and matching outfits."
+#  url: "https://www.etsy.com/shop/ShonieStylePattern"
+#  cta_label: "View collection"
+#  image: "/assets/images/category-kids.svg"
+#  image_alt: "Placeholder for children's collection"
 
 - key: dolls
   eyebrow: "Dolls"
@@ -34,11 +34,11 @@
   image: "/assets/images/category-dolls.svg"
   image_alt: "Placeholder for doll collection"
 
-- key: accessories
-  eyebrow: "Accessories"
-  title: "Accessories & decor"
-  description: "Bags, small extras, and creative details for individual projects."
-  url: "https://www.etsy.com/shop/ShonieStylePattern"
-  cta_label: "View collection"
-  image: "/assets/images/category-accessories.svg"
-  image_alt: "Placeholder for accessories"
+#- key: accessories
+#  eyebrow: "Accessories"
+#  title: "Accessories & decor"
+#  description: "Bags, small extras, and creative details for individual projects."
+#  url: "https://www.etsy.com/shop/ShonieStylePattern"
+#  cta_label: "View collection"
+#  image: "/assets/images/category-accessories.svg"
+#  image_alt: "Placeholder for accessories"
