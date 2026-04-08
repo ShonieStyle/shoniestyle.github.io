@@ -3,24 +3,14 @@ layout: page
 lang: de
 title: AGB
 eyebrow: Rechtliches
-lead: Allgemeine Geschäftsbedingungen – als Platzhalterseite vorbereitet.
+lead: The following legal notice is provided in German to comply with local regulations.
 permalink: /agb/
 ---
 
-> Hinweis: Bitte hinterlege hier deine rechtlich geprüften AGB, falls du welche für dein Angebot benötigst.
+Da der Verkauf unserer digitalen Schnittmuster ausschließlich über die Plattform Etsy erfolgt, gelten für alle Käufe die Allgemeinen Geschäftsbedingungen (AGB) sowie die Widerrufsbelehrung unseres Etsy-Shops.
 
-## Geltungsbereich
+Unsere vollständigen AGB und Informationen zum Widerrufsrecht finden Sie direkt in unserem Etsy-Shop unter folgendem Link:
 
-Diese Allgemeinen Geschäftsbedingungen gelten für die Nutzung der Website und – sofern zutreffend – für den Erwerb digitaler Produkte über verlinkte Verkaufsplattformen.
+[Hier klicken, um zu den AGB auf Etsy zu gelangen](https://www.etsy.com/shop/ShonieStylePattern#policies)
 
-## Vertragsschluss
-
-Der eigentliche Kaufprozess findet derzeit über Etsy statt. Es gelten ergänzend die Bedingungen der jeweiligen Plattform.
-
-## Digitale Produkte
-
-Digitale Schnittmuster werden nach dem Kauf elektronisch bereitgestellt.
-
-## Schlussbestimmungen
-
-Bitte diese Vorlage individuell anpassen und rechtlich prüfen lassen.
+Vertragspartner bei Käufen über Etsy ist die Etsy Ireland UC, jedoch gelten zusätzlich unsere Shop-Richtlinien, die wir dort hinterlegt haben.
