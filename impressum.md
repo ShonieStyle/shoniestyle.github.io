@@ -3,11 +3,9 @@ layout: page
 lang: de
 title: Impressum / Imprint
 eyebrow: Rechtliches
-lead: Pflichtangaben gemäß deutschem Recht. Bitte vor Veröffentlichung vollständig ergänzen.
+lead: The following legal notice is provided in German to comply with local regulations.
 permalink: /impressum/
 ---
-
-> Hinweis: Diese Seite ist aktuell eine Vorlage und ersetzt keine Rechtsberatung.
 
 ## Angaben gemäß § 5 TMG / Information according to § 5 TMG
 Olga Smirnova
