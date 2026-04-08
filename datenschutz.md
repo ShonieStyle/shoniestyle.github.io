@@ -1,9 +1,9 @@
 ---
 layout: page
 lang: de
-title: Datenschutzerklärung
-eyebrow: Rechtliches
-lead: The following legal notice is provided in German to comply with local regulations.
+title: Datenschutzerklärung / Privacy Policy
+eyebrow: Rechtliches / Legal
+lead: Informationen zum Datenschutz. / The following privacy policy is provided in German to comply with local regulations.
 permalink: /datenschutz/
 ---
 
