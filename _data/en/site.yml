@@ -57,21 +57,19 @@ faq_preview:
   cta_url: "/faq/"
 
 faq_page:
-  eyebrow: "Frequently asked questions"
-  lead: "Answers about orders, downloads, sizes, and digital products."
-  general_heading: "General questions"
-  offer_anchor: "weekly-offer"
-  offer_heading: "Offer of the week"
-  offer_text: "Use this section to highlight a weekly favorite, a discount, or a selected Etsy product."
+  eyebrow: "Frequently Asked Questions"
+  lead: "Answers regarding orders, downloads, sizes, and digital products."
+  general_heading: "General Questions"
+  offer_anchor: "current-offers"
+  offer_heading: "Current Offers & Highlights"
+  offer_text: "Discover my latest designs, seasonal discounts, and exclusive highlights directly in my Etsy shop. You can always find the most up-to-date promotions there."
   offer_fields:
-    - label: "Title"
-      value: "To be added"
-    - label: "Promotion period"
-      value: "To be added"
-    - label: "Product link"
-      value: "Please add"
-  contact_heading: "Contact"
-  contact_text: "If your question is not answered here, you can direct visitors to the contact option or message form in your Etsy shop."
+    - label: "Etsy Shop"
+      value: "<a href='https://www.etsy.com/shop/ShonieStylePattern' target='_blank'>Visit ShonieStyle on Etsy</a>"
+    - label: "Direct Link"
+      value: "<a href='https://www.etsy.com/shop/ShonieStylePattern' target='_blank'>etsy.com/shop/ShonieStylePattern</a>"
+  contact_heading: "Do you have further questions?"
+  contact_text: "Do you need help with a pattern or have specific questions? Please feel free to reach out to me directly via my <a href='https://www.etsy.com/shop/ShonieStylePattern' target='_blank'><b>Etsy Shop</b></a> ('Contact Seller' button) or on <a href='https://www.instagram.com/shoniestylepattern' target='_blank'><b>Instagram</b></a>. As we may be in different time zones, please allow up to <b>24 hours</b> for a response."
 
 footer:
   text: "Digital sewing patterns for creative people who love coordinated looks."
