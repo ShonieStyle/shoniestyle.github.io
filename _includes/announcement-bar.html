@@ -1,13 +1,13 @@
 {% if page.url contains '/de/' %}
   {% assign promo_text = "✨ Jeden Montag ein neues Schnittmuster im Angebot! ✨" %}
   {% assign promo_link = "Bei Etsy ansehen" %}
-  {% assign code_20 = "<b>30% Rabatt</b> ab 3 Schnittmustern – wird automatisch im Warenkorb abgezogen." %}
-  {% assign code_25 = "<b>35% Rabatt</b> ab 5 Schnittmustern – wird automatisch im Warenkorb abgezogen." %}
+  {% assign code_20 = "30% Rabatt ab 3 Schnittmustern • 35% Rabatt ab 5 Schnittmustern" %}
+  {% assign code_25 = "Wird automatisch im Warenkorb abgezogen" %}
 {% else %}
   {% assign promo_text = "✨ Every Monday, one special item goes on sale! ✨" %}
   {% assign promo_link = "View on Etsy" %}
-  {% assign code_20 = "<b>30% off</b> 3+ patterns – applied automatically in your cart." %}
-  {% assign code_25 = "<b>35% off</b> 5+ patterns – applied automatically in your cart." %}
+  {% assign code_20 = "30% OFF 3+ patterns • 35% OFF 5+ patterns" %}
+  {% assign code_25 = "Applied automatically in your cart" %}
 {% endif %}
 
 <div style="background-color: #FFD740; padding: 10px 5%; color: #000; font-family: sans-serif; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; width: 100%; box-sizing: border-box;">
